@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Eqitqueta html con lenguaje español -->
+<html lang="es">
+    <!-- Cabeceza html -->
+    <head>
+        <!-- Caracteres especiales -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Libreria Phaser y archivos js llamados en orden -->
+        <script src="./src/js/phaser.js"></script>
+        <script src="./src/js/end.js"></script>
+        <script src="./src/js/stage3.js"></script>
+        <script src="./src/js/stage2.js"></script>
+        <script src="./src/js/stage1.js"></script>
+        <script src="./src/js/start.js"></script>
+        <!-- Config inicializa los estados -->
+        <script src="./src/js/config.js"></script>
+        <!--Estilos css-->
+        <link rel="stylesheet" href="./src/styles/style.css" type="text/css" />
+        <!-- Titulo pagina -->
+        <title>Juego</title>
+    </head>
+    <!-- Cuerpo html -->
+    <body>
+        <!-- div con el id game que relaciona la ventana de Phaser, con la clase phaser -->
+        <!-- El juego trata de un astronauta que esta perdido en el espacio -->
+        <!-- Tiene que recoger las llaves para pasar de nivel -->
+        <!-- En el primer nivel, tiene que navegar entre asteroides, encontrando cada llave -->
+        <!-- En el segundo nivel tiene que esquivar a los enemigos y encontrar las llaves -->
+        <!-- En el tercer nivel tiene que esquivar los alien que van a apareciendo mientras navega por el espacio -->
+        <div id="game" class="phaser"></div>
+        <!-- Creditos -->
+        <h2>Camilo José Sepúlveda Zúñiga&copy;</h2>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /* Se importa fuente */
+
+body {
+    font-family: "Open Sans", sans-serif; /* Tipo de fuente de todo el cuerpo */
+    margin: 0; /* Margen en 0 del cuerpo */
+}
+
+.phaser {
+    margin: 40px auto 10px auto; /*Margen recuadro juego*/
+    max-width: 800px; /*Ancho maximo del recuadro*/
+    box-shadow: 5px 5px 15px #000000; /* Sombra recuadro */
+}
+
+h2 {
+    margin: 0; /*Margen 0*/
+    font-size: 1.1rem; /*Tamaño fuente*/
+    font-weight: 500; /*Grosor fuente*/
+    margin-bottom: 1rem; /*Margen inferior*/
+    text-align: center; /*Centra el Texto*/
+}
